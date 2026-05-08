@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="200" height="50">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <!-- Beautiful human/network icon -->
+  <g transform="translate(10, 10)">
+    <!-- Person 1 (Center) -->
+    <circle cx="20" cy="12" r="6" fill="url(#logo-grad)" />
+    <path d="M10 32C10 24.5 14.5 21 20 21C25.5 21 30 24.5 30 32H10Z" fill="url(#logo-grad)" opacity="0.9" />
+    
+    <!-- Person 2 (Left, smaller/offset) -->
+    <circle cx="8" cy="18" r="4.5" fill="url(#logo-grad)" opacity="0.75" />
+    <path d="M1 32C1 26.5 4 24.5 8 24.5C12 24.5 15 26.5 15 32H1Z" fill="url(#logo-grad)" opacity="0.65" />
+    
+    <!-- Person 3 (Right, smaller/offset) -->
+    <circle cx="32" cy="18" r="4.5" fill="url(#logo-grad)" opacity="0.75" />
+    <path d="M25 32C25 26.5 28 24.5 32 24.5C36 24.5 39 26.5 39 32H25Z" fill="url(#logo-grad)" opacity="0.65" />
+  </g>
+  <!-- Beautiful typography -->
+  <text x="65" y="36" font-family="'Inter', sans-serif" font-weight="800" font-size="22" fill="#0F172A" letter-spacing="-0.5">
+    Talent<tspan fill="url(#logo-grad)">Flow</tspan>
+  </text>
+</svg>
