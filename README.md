@@ -9,6 +9,12 @@
 
 ---
 
+### 🌐 Live Production Links
+* **Production Frontend (Vercel)**: ⚛️ [https://day-2-mern.vercel.app](https://day-2-mern.vercel.app)
+* **Production Backend API (Render)**: 🔧 [https://day-2-mern.onrender.com](https://day-2-mern.onrender.com)
+
+---
+
 ## 📖 Overview
 
 The **MERN Employee Management System** is an enterprise-caliber, lightweight full-stack administration portal built during Day 2 of the MERN Stack Class. It serves as a unified workspace for HR operations to monitor, register, edit, and offboard employees seamlessly.
@@ -304,8 +310,8 @@ MERN/
 
 #### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/prawinkumar2k/day-2-mern-stack-class-employee-management-system.git
-cd day-2-mern-stack-class-employee-management-system
+git clone https://github.com/prawinkumar2kk4/day-2-mern.git
+cd day-2-mern
 ```
 
 #### 2️⃣ Setup Environment Variables
