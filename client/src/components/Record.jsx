@@ -17,7 +17,7 @@ export default function Record() {
       if (!id) return;
       setIsNew(false);
       const response = await fetch(
-        `http://localhost:5050/record/${params.id.toString()}`
+        `${import.meta.env.VITE_API_URL || "http://localhost:5050"}/record/${params.id.toString()}`
       );
       if (!response.ok) {
         const message = `An error has occurred: ${response.statusText}`;
@@ -50,7 +50,7 @@ export default function Record() {
     try {
       // if the id is present, we will set the URL to /record/:id, otherwise we will set the URL to /record.
       const response = await fetch(
-        `http://localhost:5050/record${params.id ? "/" + params.id : ""}`,
+        `${import.meta.env.VITE_API_URL || "http://localhost:5050"}/record${params.id ? "/" + params.id : ""}`,
         {
           // if the id is present, we will use the PATCH method, otherwise we will use the POST method.
           method: `${params.id ? "PATCH" : "POST"}`,
