@@ -645,16 +645,7 @@ graph TD
 ## 📸 Screenshots
 
 ### 🖼️ Portal Dashboard View
-```text
-┌─────────────────────────────────────────────────┐
-│  🚀 Employee Directory                          │
-├─────────────────────────────────────────────────┤
-│  Name         │ Position     │ Level  │ Action  │
-├───────────────┼──────────────┼────────┼─────────┤
-│  Jane Doe     │ Staff Eng    │ Senior │[Edit][X]│
-│  John Smith   │ UX Designer  │ Mid    │[Edit][X]│
-└───────────────┴──────────────┴────────┴─────────┘
-```
+![Portal Dashboard View](./screenshot.png)
 
 ---
 
